@@ -704,9 +704,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonadep/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn
 
 PRODUCT_PACKAGES += \
-    audio.primary.lahaina \
-    libextcamera_client \
-    vendor.oplus.hardware.extcamera@1.0 \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -842,12 +839,9 @@ PRODUCT_PACKAGES += \
     libDeVIS \
     libdehaze \
     libfastov_dsp \
-    liba2dpoffload_odm \
-    libaudioEngineerTest \
     liblvimfs \
     liblvimfs_wrapper \
     libnightvision \
-    libssrec_odm \
     anc.hal \
     android.hardware.secure_element@1.0-impl \
     com.qti.sensor.gc02m1b.lemonade \
